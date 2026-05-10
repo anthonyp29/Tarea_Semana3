@@ -11,7 +11,7 @@ public class Control {
             System.out.println("Ingrese su edad");
             int edad=sc.nextInt();
             System.out.println("Ingrese su calificacion del 1 al 100");
-            int calificacion=sc.nextInt();
+            double calificacion=sc.nextDouble();
             sc.nextLine();
 
             String clasificacionEdad=(edad<=18)? "Menor de edad": "Mayor de edad";
